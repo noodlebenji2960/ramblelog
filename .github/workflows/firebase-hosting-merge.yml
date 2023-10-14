@@ -15,3 +15,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RAMBLELOG2 }}'
           channelId: live
           projectId: ramblelog2
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
